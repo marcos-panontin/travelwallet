@@ -88,7 +88,7 @@ class WalletForm extends Component {
     const { value, description, currency, method, tag } = this.state;
 
     return (
-      <form className='py-4 px-10 bg-white rounded-b-xl dark:bg-zinc-800 text-blue-700 dark:text-blue-300 before:content-[""] before:bg-blue-700 w-3/4 z-10' onSubmit={ editor ? this.handleSaveEdit : this.handleSubmit }>
+      <form className='py-4 px-10 bg-zinc-100 rounded-b-xl dark:bg-zinc-800 text-blue-700 dark:text-blue-300 before:content-[""] before:bg-blue-700 w-3/4 z-10' onSubmit={ editor ? this.handleSaveEdit : this.handleSubmit }>
 
         
         <div className='w-full flex flex-row items-center justify-between mb-2 pt-2'>
@@ -181,7 +181,7 @@ class WalletForm extends Component {
         </div>
 
         
-        <div className='flex items-center justify-center bg-white dark:bg-zinc-800 w-full py-5'>
+        <div className='flex items-center justify-center bg-zinc-100 dark:bg-zinc-800 w-full py-5'>
         <input
           className={`py-2 px-4 rounded ${editor?  'bg-red-600 hover:bg-red-500' :  'bg-teal-600 dark:bg-teal-900 dark:hover:bg-teal-600 hover:bg-teal-500' } text-white cursor-pointer font-bold`}
           type="submit"
