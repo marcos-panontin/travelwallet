@@ -3,8 +3,13 @@
 ## Carteira de Gastos Internacionais feita com #React e #Redux, com Toggle de Modo Noturno 🌛
 
 ## Deploy
+[Clique aqui para acessar a aplicação](https://travelwallet.vercel.app/carteira).
+
 
 ## Preview
+
+<img src=".src/images/preview.gif" alt="Imagem da Aplicação funcionando" width="200">
+
 
 TravelWallet é uma Carteira de Gastos Internacionais desenvolvida em React, Redux e Tailwind.
 
