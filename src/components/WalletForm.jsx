@@ -96,7 +96,7 @@ class WalletForm extends Component {
           <label htmlFor="descrição">
             <span className='font-bold'>Descrição da despesa:</span>
           <input
-          className={`pl-2 ml-2 rounded border ${editor ?  'border-red-700':  'border-blue-700' } text-blue-700 dark:text-blue-300 placeholder-blue-700 dark:bg-zinc-800 dark:focus:bg-zinc-900`}
+          className={`pl-2 ml-2 rounded border ${editor ?  'border-red-700':  'border-blue-700' } text-blue-700 dark:text-blue-300 placeholder-blue-700 bg-zinc-100 dark:bg-zinc-800 dark:focus:bg-zinc-900`}
             onChange={ this.handleChange }
             name="description"
             id="descrição"
@@ -110,7 +110,7 @@ class WalletForm extends Component {
         <label htmlFor="tag">
             <span className='font-bold'>Categoria da despesa:</span>
             <select
-            className={`ml-2 rounded border ${editor ?  'border-red-700':  'border-blue-700' } text-blue-700 dark:text-blue-300 placeholder-blue-700 dark:bg-zinc-800 dark:focus:bg-zinc-900`}
+            className={`ml-2 rounded border ${editor ?  'border-red-700':  'border-blue-700' } text-blue-700 dark:text-blue-300 placeholder-blue-700 bg-zinc-100 dark:bg-zinc-800 dark:focus:bg-zinc-900`}
             onChange={ this.handleChange }
             name="tag"
             id="tag"
@@ -131,7 +131,7 @@ class WalletForm extends Component {
         <label htmlFor="valor">
             <span className='font-bold'>Valor:</span>
             <input
-          className={`pl-2 ml-2 rounded border ${editor ?  'border-red-700':  'border-blue-700' } text-blue-700 dark:text-blue-300 placeholder-blue-700 dark:bg-zinc-800 dark:focus:bg-zinc-900`}
+          className={`pl-2 ml-2 rounded border ${editor ?  'border-red-700':  'border-blue-700' } text-blue-700 dark:text-blue-300 placeholder-blue-700 bg-zinc-100 dark:bg-zinc-800 dark:focus:bg-zinc-900`}
             onChange={ this.handleChange }
             name="value"
             id="valor"
