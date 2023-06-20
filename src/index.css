@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  background-image: url(./images/backgroundImage.png);
+}
+
+.bg-sun:after {
+  background-image: url(./components/darkmodeimages/sun.svg);
+}
+
+.bg-moon:after {
+  background-image: url(./components/darkmodeimages/moon.svg);
+}
