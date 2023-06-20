@@ -8,7 +8,7 @@
 
 ## Preview
 
-<img src=".src/images/preview.png" alt="Imagem da Aplicação funcionando" width="200">
+<img src="./preview.gif" alt="Imagem da Aplicação funcionando" width="500">
 
 
 TravelWallet é uma Carteira de Gastos Internacionais desenvolvida em React, Redux e Tailwind.
