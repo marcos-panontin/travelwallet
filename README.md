@@ -3,7 +3,7 @@
 ## Carteira de Gastos Internacionais feita com #React e #Redux, com Toggle de Modo Noturno 🌛
 
 ## Deploy
-[Clique aqui para acessar a aplicação](https://travelwallet.vercel.app/carteira).
+[Clique aqui para acessar a aplicação](https://travelwallet.vercel.app).
 
 
 ## Preview
